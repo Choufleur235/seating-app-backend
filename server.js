@@ -22,9 +22,6 @@ app.use((req, res, next) => {
 
 //routes
 
-app.get("/", (req, res) => {
-    res.render("Home");
-})
 app.use("/api/tables", tableRoutes);
 
 //connect to db
