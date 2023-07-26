@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 //routes
 
-app.use("/api/tables", tableRoutes);
+app.use("/", tableRoutes);
 
 //connect to db
 mongoose.connect(process.env.MONGO_URI)
