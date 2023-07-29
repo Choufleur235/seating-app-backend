@@ -10,7 +10,7 @@ const personSchema = new Schema({
         type: String
     },
     table: {
-        type: Number
+        type: String
     }
 }, { timeStamps: true })
 
